@@ -59,7 +59,9 @@ module.exports = {
         'selector-list-comma-newline-before': 'never-multi-line',
         'selector-list-comma-space-after': 'always-single-line',
         'selector-list-comma-space-before': 'never',
-        'rule-empty-line-before': 'always',
+        'rule-empty-line-before': ['always', {
+            ignore: ['after-comment', 'first-nested']
+        }],
         'media-feature-colon-space-after': 'always',
         'media-feature-colon-space-before': 'never',
         'media-feature-name-case': 'lower',
