@@ -31,5 +31,8 @@
     "env": {
       "node": true
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
