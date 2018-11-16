@@ -4,7 +4,7 @@
   "description": "My personal Stylelint configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint **/*.js"
   },
   "keywords": [
     "stylelint",
@@ -23,5 +23,13 @@
   "devDependencies": {
     "eslint": "5.9.0",
     "eslint-config-arnellebalane": "3.3.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "arnellebalane"
+    ],
+    "env": {
+      "node": true
+    }
   }
 }
