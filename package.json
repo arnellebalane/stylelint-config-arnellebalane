@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/arnellebalane/stylelint-config-arnellebalane/issues"
   },
-  "homepage": "https://github.com/arnellebalane/stylelint-config-arnellebalane#readme"
+  "homepage": "https://github.com/arnellebalane/stylelint-config-arnellebalane#readme",
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-arnellebalane": "3.3.0"
+  }
 }
